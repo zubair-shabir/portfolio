@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubair Shabir</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/queries.css">
+</head>
+<body>
+    
+    
+    <header class="none">
+        <a href="#" class="logo">PortFolio</a>  
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#skill" onclick="toggleMenu()">Skill</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBox">
+            <h2>Hello, I'm <br><span>Zubair Shabir.</span></h2>
+            <h3>I'm a Front End Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section> 
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2> 
+        </div>
+        <div class="content">
+            <div class="contentBox w50">
+                <h3>I'm a Front End Developer</h3>
+                <p>
+                    Professionally connected with the web development industry and information technology for many years.</p><br/>
+                <p>Well-organized person, problem solver, independent employee with high attention to detail</p><br/>
+                <p>Intrested in the entire frontend spectrum and working on ambitious projects with positive poeple.</p>
+            </div>
+            <div class="w50">
+                <div class="img"></div>
+                <!-- <img src="./assets/images/DSC_0198.JPG" class="img">             -->
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBox">
+                <img src="./assets/images/icon1.png" alt="#">
+                <h2>Web Design</h2>
+                <p>Clean, modern design - optimized for performance,search engines, and converting users to customers</p>
+            </div>
+            <div class="servicesBox">
+                <img src="./assets/images/icon2.png" alt="#">
+                <h2>Web Development</h2>
+                <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible</p>
+            </div>
+            <div class="servicesBox">
+                
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h2>Mobile Responsive</h2>
+                <p>A responsive design makes your website accessible to all users,regardless of their device.</p>
+            </div>  
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+        </div>
+        <div class="content">
+            <div class="workBox">
+                <a href="https://zubair-shabir.github.io/weather_API.github.io/" target="_blank">
+                    <img src="./assets/images/Weather_API.JPG" alt="product1">
+                </a>                
+            </div>
+            <div class="workBox">
+                <a href="https://zubair-shabir.github.io/wordBeatter.github.io/" target="_blank">
+                    <img src="./assets/images/WordBeatter.JPG" alt="product1">
+                </a>                
+            </div>
+            <div class="workBox">
+                <a href="https://zubair-shabir.github.io/dice_game.github.io/" target="_blank">
+                    <img src="./assets/images/Dice.JPG" alt="product1">
+                </a>                
+            </div>
+            <div class="workBox">
+                <a href="https://zubair-shabir.github.io/search_app.github.io/"  target="_blank">
+                    <img src="./assets/images/searchApp.JPG" alt="product1">
+                </a>                
+            </div>
+            
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <!-- <section class="testimonial" id="testimonials">
+        
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi animi officia assumenda, ex fugit sunt est quis quae dolorum perferendis illo doloribus facilis magni eum sapiente cupiditate obcaecati non dolore.</p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBox">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi animi officia assumenda, ex fugit sunt est quis quae dolorum perferendis illo doloribus facilis magni eum sapiente cupiditate obcaecati non dolore.</p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="skill" id="skill">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <h3>HTML5 <span>90%</span></h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li>
+                <h3>CSS 3 <span>65%</span></h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li>
+                <h3>Javascript <span>70%</span></h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+
+        </ul>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+           
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Srinagar, <br/>Jammu & Kashmir, India <br/>190003</p>
+                        </div>
+                    </div>
+                
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91-8494063831</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>zubairshabir980@gmail.com</p>
+                        </div>
+                    </div>    
+                    <div class="socialIcon">
+                        <div class="iconbox">
+                            
+                            <a href="https://www.linkedin.com/in/zubair-shabir-349094120/">
+                                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://github.com/zubair-shabir">
+                                <i class="fa fa-github-square" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/zubairshabir/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+            <div class="formBox" >
+                <form netlify>
+                    <h3>Message Me</h3>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" class="btn" value='Send'>
+                </form>            
+            </div>
+           
+        </div>
+        
+        
+    </section>
+    <div class="copyright">
+        <p>Copyright © 2020 Zubair Shabir. All Right Reserved.</p>
+    </div>
+
+    <script>
+        // $(window).onload=function(){
+        //     document.querySelector(".loaderWrapper").style.display="none";
+        // })
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function toggleMenu() {
+            var menuToggle  = document.querySelector(".toggle");
+            var menu  = document.querySelector(".menu");
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+            
+        }
+        
+    </script>
+</body>
+</html>
